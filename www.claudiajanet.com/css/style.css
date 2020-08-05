@@ -1,0 +1,35 @@
+
+/*Heavy style*/
+.h1c     	{font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+			color:white; font-size:22pt;text-align:center; }
+.h2c 		{font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+			color:#FFFFFF; font-size:20pt;text-align:center; } 
+.h1l 		{font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+			color:#FFFFFF; font-size:22pt;text-align:left; }
+.h2l 		{font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+			color:#FFFFFF; font-size:20pt;text-align:left; } 
+.mn1	    {font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+			color:#FFFFFF; font-size:16pt;	text-align:left; text-decoration:none;} 
+.mn2 		{font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+			color:#FFFFFF; font-size:14pt;	text-align:left; text-decoration:none;} 		
+.tx1	    {font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+			color:#FFFFFF; font-size:16pt;	text-align:left; } 		
+.tx2	    {font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+			color:#FFFFFF; font-size:14pt;	text-align:left; }
+.tx3	    {font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+			color:#FFFFFF; font-size:12pt;	text-align:left; }
+.liga		{font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+			color:#FFFFFF; font-size:12pt;	text-align:center; text-decoration:none;}
+
+body 	{
+            SCROLLBAR-FACE-COLOR:gray; /*#00C100;*/
+			SCROLLBAR-HIGHLIGHT-COLOR:gray; /*#00C100;*/
+			SCROLLBAR-SHADOW-COLOR:#000000;
+			SCROLLBAR-3DLIGHT-COLOR:#000000;
+			SCROLLBAR-ARROW-COLOR:gray;			/*#005500;*/
+			SCROLLBAR-TRACK-COLOR:white;		/*#005500;*/
+			SCROLLBAR-DARKSHADOW-COLOR:#000000; 
+			background-image: url(../background/background.jpg);
+			background-repeat: repeat;
+			color:#FFFFFF; font-size:14pt;	text-align:left;
+}

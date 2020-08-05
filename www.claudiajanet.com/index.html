@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Claudia Janet</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<meta name="title" content="Obra de Claudia Janet" /> 
+<meta name="Description" content="Galer&iacute;a de la obra de Claudia Janet,abstract  painting &amp; art work by Claudia Janet" /> 
+<meta name="Keywords" content="galer&iacute;a pintura surrealista,Claudia Janet,Claudia,Janet,pintora, pintura,pintura oleo, dibujo,oil paint,abstract art gallery,drawing &amp; painting,art gallery" /> 
+<meta name="language" content="Es" /> 
+<meta name="author" content="Claudia Janet" /> 
+<meta name="copyright" content="2009 Claudia Janet" /> 
+<meta name="robots" content="all | index | follow" /> 
+<meta name="revisit-after" content="15 days" /> 
+<meta name="Reply-to" content="mail@claudiajanet.com" /> 
+<meta name="document-classification" content="Arts and Craft" /> 
+<meta name="document-rights" content="Copyrighted Work" /> 
+<meta name="document-type" content="Public" /> 
+<meta name="document-rating" content="General" /> 
+<meta name="document-distribution" content="Global" /> 
+<meta name="minedad" content="tp" /> 
+<script type="text/javascript" src="jquery/jquery-1.4.4.min.js"></script>
+<script type="text/javascript">
+function slideSwitch() {
+    var $active = $('#slideshow IMG.active');
+
+    if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+
+    // use this to pull the images in the order they appear in the markup
+    var $next =  $active.next().length ? $active.next(): $('#slideshow IMG:first');
+
+    // uncomment the 3 lines below to pull the images in random order
+    var $sibs  = $active.siblings();
+    var rndNum = Math.floor(Math.random() * $sibs.length );
+    var $next  = $( $sibs[ rndNum ] );
+    $active.addClass('last-active');
+    $next.css({opacity: 0.0})
+        .addClass('active')
+        .animate({opacity: 1.0}, 1000, function() {$active.removeClass('active last-active');});
+}
+
+$(function displaySource() {setInterval( "slideSwitch()", 4000 ); });
+
+</script>
+
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+<style type="text/css">
+/*** set the width and height to match your images **/
+#slideshow					{ position:relative; height:210px;width:800px; top:0%; left:0%;}
+#slideshow IMG				{ position:absolute; top:0%; left:0%; z-index:8;  opacity:0.0;}
+#slideshow IMG.active		{ z-index:10; opacity:1.0;}
+#slideshow IMG.last-active	{ z-index:9;}
+</style>
+    <link rel="stylesheet" href="css/style.css" type="text/css" charset=iso-8859-1></link>
+</head>
+
+<body bgcolor="black" text="#000000" wmode="transparent" >
+
+	<table border="0" cellpadding="0" cellspacing="0" width="95%" align="center"> 
+		<tr><td class="h1c">Claudia Janet</td></tr>
+		<tr><td class="h2c">Artista pl&aacute;stico</td></tr>
+	</table>
+	
+	<table border="0" cellpadding="0" cellspacing="0" width="95%" height="60%" align="center">
+		<tr ><td align="center">
+			<p id="slideshow" align="center"> <img src="intro/two_800_210.gif" alt="Claudia Janet" /> 
+        <img src="intro/three_800_210.gif" alt="Claudia Janet" /> <img src="intro/four_800_210.gif" alt="Claudia Janet" /> 
+        <img src="intro/five_800_210.gif" alt="Claudia Janet" /> <img src="intro/one_800_210.gif" alt="Claudia Janet" class="active" /> 
+      </p>
+		</td></tr></table>
+			
+			<table border="0" cellpadding="0" cellspacing="0" width="95%" align="center">
+			<tr><td align="center"> 
+				<a href="spanish/gallery.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image1','','button/welcome.2s.gif',0)"> 
+            	<img src="button/welcome.1s.gif" name="Image1" border="0" id="Image1"/></a></td>
+			<td></td>
+			<td align="center"> 
+				<a href="english/gallery.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','button/welcome.2e.gif',0)"> 
+            	<img src="button/welcome.1e.gif" name="Image2" border="0" id="Image2" /></a></td></tr>
+			</table></td>
+		</tr>
+		</table>
+		
+		<table border="0" cellpadding="0" cellspacing="0" width="99%" height="10%" align="center">
+		<tr><td class="liga" valign="bottom" align="center"><a href="http://www.facebook.com/ClaudiaJanet.Artist">www.facebook.com/ClaudiaJanet.Artist</a></td></tr>
+		<tr><td class="liga" valign="bottom" align="center"><a href="http://www.mangohosting.com">www.mangohosting.com</a></td></tr>
+		</table>
+
+</body>
+</html>
